@@ -13,37 +13,55 @@
     font-family: "Museo Slab 900","Lucida Grande","Lucida Sans Unicode","Trebuchet MS",sans-serif;
 
 }
-.logo{
-    text-align: right;
-}
+
 .logo img{
     height: 100px;
     width: 100px;
 
+
 }
+
 .btn:hover {
     color:white;
     background-color: grey;
     border-color: grey;
 }
+
 .donate a:hover{
     background-color: rgba(255, 107, 53, 0.897);
     color:white;
 }
 .donate a{
-background-color: #ff4500;
-color: #ffffff;
-padding-bottom: 20px;
+    vertical-align: middle;
+    background-color: #ff4500;
+    color: #ffffff;
+    padding-bottom: 20px;
+    float: right;
 
 }
+
+
 
 @media (min-width: 768px) {
-.animate {
-    animation-duration: 0.3s;
-    -webkit-animation-duration: 0.3s;
-    animation-fill-mode: both;
-    -webkit-animation-fill-mode: both;
-}
+    .animate {
+        animation-duration: 0.3s;
+        -webkit-animation-duration: 0.3s;
+        animation-fill-mode: both;
+        -webkit-animation-fill-mode: both;
+    }
+    .conditional-flex {
+        display: flex;
+    }
+    .hamburger-col{
+        order: 2;
+    }
+    .logo-col{
+        order: 1;
+    }
+    .donate-col{
+        order: 3;
+    }
+
 }
 
 @keyframes slideIn {
