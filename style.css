@@ -8,57 +8,78 @@
 /* prevent sticky click */
 .dropdown>.dropdown-toggle:active {
       pointer-events: none;
-  }
-  .donate a{
-    background-color: #ff4500;
-    color: #ffffff;
-    padding-bottom: 20px;
-  }
-  @media (min-width: 768px) {
-    .animate {
-      animation-duration: 0.3s;
-      -webkit-animation-duration: 0.3s;
-      animation-fill-mode: both;
-      -webkit-animation-fill-mode: both;
-    }
-  }
+}
+.nav-link{
+    font-family: "Museo Slab 900","Lucida Grande","Lucida Sans Unicode","Trebuchet MS",sans-serif;
 
-  @keyframes slideIn {
-    0% {
-      transform: translateY(1rem);
-      opacity: 0;
-    }
+}
+.logo{
+    text-align: right;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
 
-    100% {
-      transform: translateY(0rem);
-      opacity: 1;
-    }
+}
+.btn:hover {
+    color:white;
+    background-color: grey;
+    border-color: grey;
+}
+.donate a:hover{
+    background-color: rgba(255, 107, 53, 0.897);
+    color:white;
+}
+.donate a{
+background-color: #ff4500;
+color: #ffffff;
+padding-bottom: 20px;
 
-    0% {
-      transform: translateY(1rem);
-      opacity: 0;
-    }
-  }
+}
 
-  @-webkit-keyframes slideIn {
-    0% {
-      -webkit-transform: transform;
-      -webkit-opacity: 0;
-    }
+@media (min-width: 768px) {
+.animate {
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+}
+}
 
-    100% {
-      -webkit-transform: translateY(0);
-      -webkit-opacity: 1;
-    }
+@keyframes slideIn {
+0% {
+    transform: translateY(1rem);
+    opacity: 0;
+}
 
-    0% {
-      -webkit-transform: translateY(1rem);
-      -webkit-opacity: 0;
-    }
-  }
+100% {
+    transform: translateY(0rem);
+    opacity: 1;
+}
 
-  .slideIn {
-    -webkit-animation-name: slideIn;
-    animation-name: slideIn;
-  }
+0% {
+    transform: translateY(1rem);
+    opacity: 0;
+}
+}
+@-webkit-keyframes slideIn {
+0% {
+    -webkit-transform: transform;
+    -webkit-opacity: 0;
+}
+
+100% {
+    -webkit-transform: translateY(0);
+    -webkit-opacity: 1;
+}
+
+0% {
+    -webkit-transform: translateY(1rem);
+    -webkit-opacity: 0;
+}
+}
+.slideIn {
+-webkit-animation-name: slideIn;
+animation-name: slideIn;
+}
 
