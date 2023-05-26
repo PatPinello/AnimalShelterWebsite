@@ -18,7 +18,23 @@
     height: 100px;
     width: 100px;
 
-
+}
+.card-img-top{
+    background-color: #54575a10;
+    object-fit: contain;
+}
+.card-body{
+    background-color: #54575a1f;
+    font-family: "Museo Slab 900","Lucida Grande","Lucida Sans Unicode","Trebuchet MS",sans-serif;
+}
+.card-title p a{
+    color:#ff4500;
+    font-family: "Museo Slab 900","Lucida Grande","Lucida Sans Unicode","Trebuchet MS",sans-serif;
+    font-size: large;
+    text-decoration: none;
+}
+.card-text{
+    height: 480px;
 }
 
 .btn:hover {
@@ -26,7 +42,9 @@
     background-color: grey;
     border-color: grey;
 }
-
+.updated{
+    padding-left: 10px;
+}
 .donate a:hover{
     background-color: rgba(255, 107, 53, 0.897);
     color:white;
@@ -63,6 +81,20 @@
     }
 
 }
+/*Adoption*/
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
 
 @keyframes slideIn {
 0% {
