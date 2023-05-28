@@ -19,6 +19,13 @@
     width: 100px;
 
 }
+.img-banner{
+    width: 154.2%;
+    height: 80%;
+    margin-left: -400px;
+
+
+}
 .card-img-top{
     background-color: #54575a10;
     object-fit: contain;
