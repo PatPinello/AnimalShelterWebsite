@@ -1,5 +1,18 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
 /* Padding below the footer and lighter body text */
 
 body {
@@ -20,17 +33,40 @@ body {
   bottom: 3rem;
   z-index: 10;
 }
+.carousel-caption a {
+  background-color: #ff440000;
+  color: white;
+  border-color: #ff4400b7;
+
+}
+.carousel-caption a:hover {
+  background-color: #ff4500;
+  color: white;
+  border-color: #ff4500;
+
+}
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
+  background-color: #5a5a5a;
 }
-.carousel-item > img {
+.ginger > img{
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
+  padding-left: 200px;
+  width: auto;
   height: 32rem;
+}
+.carousel-item > img{
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 32rem;
+  aspect-ratio: auto;
+
 }
 
 

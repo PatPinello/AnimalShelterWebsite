@@ -9,6 +9,10 @@
 .dropdown>.dropdown-toggle:active {
       pointer-events: none;
 }
+.dropdown-item {
+    padding-top: 100px;
+    padding-left: 200px;
+}
 .nav-link{
     font-family: "Museo Slab 900","Lucida Grande","Lucida Sans Unicode","Trebuchet MS",sans-serif;
 
