@@ -11,11 +11,13 @@
 }
 .dropdown-item {
     padding-top: 100px;
-    padding-left: 200px;
-}
-.nav-link{
-    font-family: "Museo Slab 900","Lucida Grande","Lucida Sans Unicode","Trebuchet MS",sans-serif;
 
+    /* padding-left: 200px; */
+}
+.nav-link button {
+    font-family: "Museo Slab 900","Lucida Grande","Lucida Sans Unicode","Trebuchet MS",sans-serif;
+    font-size: 18px;
+    color: #ff4500;
 }
 
 .logo img{
