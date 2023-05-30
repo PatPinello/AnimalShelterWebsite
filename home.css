@@ -50,6 +50,7 @@ body {
 .carousel-item {
   height: 25rem;
   background-color: #5a5a5a;
+
 }
 .ginger > img{
   position: absolute;
@@ -65,10 +66,23 @@ body {
   left: 0;
 
   height: 32rem;
-
-
 }
 
+.welcome-img {
+  float: right;
+  padding-bottom: 7px;
+  padding-left: 10px;
+}
+.welcome-heading {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.welcome1{
+  margin-bottom: 0px;
+}
+.welcome-back{
+  background-color: #5a5a5a;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
