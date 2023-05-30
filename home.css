@@ -80,8 +80,19 @@ body {
 .welcome1{
   margin-bottom: 0px;
 }
-.welcome-back{
+.bg-grey{
   background-color: #5a5a5a;
+  opacity: .9;
+}
+.bg-light-grey{
+  background-color: #d4d4d4;
+}
+.info-block {
+
+ height: 965px;
+}
+.info-text{
+  word-break: break-word;
 }
 
 /* MARKETING CONTENT

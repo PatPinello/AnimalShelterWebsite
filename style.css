@@ -70,7 +70,7 @@
     float: right;
 
 }
-.btn-xl {
+.btn-donate {
     padding: 20px 20px;
     font-size: 40px;
     border-radius: 0;
@@ -78,6 +78,12 @@
     text-transform: uppercase;
     font-family: "Museo Slab 900","Lucida Grande","Lucida Sans Unicode","Trebuchet MS",sans-serif;
     height: 90px;
+}
+.btn-donate:hover{
+    background-image: url('C:/Users/patri/Desktop/AnimalShelterWebsite/AnimalShelterWebsite/assets/pattern_orange.png');
+    opacity: 0.6;
+    color:white;
+
 }
 
 
