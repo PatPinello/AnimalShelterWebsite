@@ -20,22 +20,21 @@
     <!-- row -->
     <div class="row align-items-center">
       <!-- col -->
-      <div class="col hamburger-col">
-
+      <div class="col-auto hamburger-col">
             <!-- hamburger button -->
-            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <!-- end hamburger button -->
             <!-- navbar collapser -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-collapse collapse" id="navbarNav">
               <!-- navbar unordered list -->
               <ul class="navbar-nav  me-auto mb-2 mb-lg-0 ">
                 <!-- Our Work dropdown -->
                 <li class="nav-item dropdown">
-                  <button class="nav-link btn border border-top-0 border-bottom-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link btn  border-top-0 border-bottom-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Our Work
-                  </button>
+                  </a>
                   <ul class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item" href="aboutUs.html">About Us</a></li>
                     <li><a class="dropdown-item" href="#">Penny Social</a></li>
@@ -45,9 +44,9 @@
                 </li>
                 <!-- Local Services dropdown -->
                 <li class="nav-item dropdown">
-                  <button class="nav-link btn border border-left-0 border-top-0 border-bottom-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link  btn border-left-0 border-top-0 border-bottom-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Services
-                  </button>
+                  </a>
                   <ul class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item" href="#">Contact Us</a></li>
                     <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -57,14 +56,14 @@
                 </li>
                 <!-- How you can help dropdown  -->
                 <li class="nav-item dropdown">
-                  <button class="nav-link btn border border-left-0 border-top-0 border-bottom-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link btn  border-left-0 border-top-0 border-bottom-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     How You Can Help
-                  </button>
+                  </a>
                   <ul class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item" href="adoption.html">Adoption</a></li>
                     <li><a class="dropdown-item" href="#">Volunteer</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Events</a></li>
+                    <li><a class="dropdown-item" href="events.html">Events</a></li>
                   </ul>
                 </li>
 
@@ -88,12 +87,13 @@
               <a class="btn btn-donate text-center" href="#" role="button">DONATE</a>
             </div>
           </div> <!--end donate col-->
-    </div> <!---end row-->
+    </div> <!--end row-->
   </div> <!--end container-->
   </nav> <!-- end navbar -->
 
 
-
+<div class="container-fluid">
+  <div class="row">
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -126,11 +126,10 @@
       <div class="carousel-item ginger">
         <img class="img" src="C:\Users\patri\Desktop\AnimalShelterWebsite\AnimalShelterWebsite\assets\ginger.jpg"
         width="40%" height="50%"  aria-hidden="true"  focusable="false">
-
         <div class="container">
           <div class="carousel-caption text-end">
             <h1>Ginger Needs You!</h1>
-            <p>Ginger was left at our door in very poor condition. <br>
+            <p class="">Ginger was left at our door in very poor condition. <br>
                She has spinal trama and needs an MRI<br> To see if surgery or physical therapy <br>will help her gain back strength in her legs. <br>
             <p><a class="btn btn-lg btn-primary" href="#donate">Donate to Ginger</a></p>
           </div>
@@ -146,6 +145,8 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  </div>
+</div>
 
   <div id="welcome" class="container-fluid">
     <div class="row">
@@ -162,19 +163,19 @@
       </div>
     </div>
     <div class="row">
-      <div class="info col-md-4">
+      <div class="info  col-sm-12 col-md-4">
         <div id="info" class="info-block p-4 p-md-5 mb-4 text-black rounded bg-light-grey">
             <h2 id="welcome1" class="welcome-heading display-4 fst-bold">Adoption Info!</h2>
-              <img class="info-img img-fluid pt-3" src = "C:\Users\patri\Desktop\AnimalShelterWebsite\AnimalShelterWebsite\assets\foodDrive.jpg">
+              <img class="info-img img-fluid pt-3" src = "C:\Users\patri\Desktop\AnimalShelterWebsite\AnimalShelterWebsite\assets\adopt.jpg">
               <p class="lead my-3 .text-danger">
                 Adoptions are by appointment only. Please call our rescue line at 914-734-2989 or email littleorphans@yahoo.com. Please include a phone number.
               </p>
         </div>
       </div>
-      <div class="info col-md-4">
+      <div class="info col-sm-12 col-md-4">
         <div id="info" class="info-block p-4 p-md-5 mb-4 text-white rounded bg-grey">
           <h2 id="welcome1" class="welcome-heading display-4 fst-bold">Adoption Center</h2>
-              <img class="info-img img-fluid pt-3" src = "C:\Users\patri\Desktop\AnimalShelterWebsite\AnimalShelterWebsite\assets\foodDrive.jpg">
+              <img class="info-img img-fluid pt-3" src = "C:\Users\patri\Desktop\AnimalShelterWebsite\AnimalShelterWebsite\assets\shelter.jpg">
               <p class="info lead my-3">
                 Adoption Center is currently closed.
                 We are in the process of finding and relocating our adoption center.
@@ -185,7 +186,7 @@
               </p>
         </div>
       </div>
-      <div class="info col-md-4">
+      <div class="info col-sm-12 col-md-4">
         <div id="info" class="info-block p-4 p-md-5 mb-4 text-black rounded bg-light-grey">
           <h2 id="welcome1" class="welcome-heading display-4 fst-bold">Thrift Shop is open!</h2>
             <img class="info-img img-fluid pt-3" src = "C:\Users\patri\Desktop\AnimalShelterWebsite\AnimalShelterWebsite\assets\thriftShop.jpg" >

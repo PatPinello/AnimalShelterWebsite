@@ -17,7 +17,26 @@
 .nav-link button {
     font-family: "Museo Slab 900","Lucida Grande","Lucida Sans Unicode","Trebuchet MS",sans-serif;
     font-size: 18px;
-    color: #ff4500;
+
+
+
+}
+/* .nav-item.dropdown{
+    position: relative;
+}*/
+/* .navbar-toggler{
+    position: absolute;
+} */
+
+.navbar-nav {
+    /* position: absolute; */
+
+}
+
+.navbar-collapse {
+
+    width: 100%;
+    top: 100%;
 }
 
 .logo img{
@@ -62,6 +81,19 @@
     background-color: rgba(255, 107, 53, 0.897);
     color:white;
 }
+.btn-orange {
+    background-color: #ff440000;
+    color: white;
+    border-color: #ff4400b7;
+
+  }
+  .btn-orange:hover {
+    background-color: #ff4500;
+    color: white;
+    border-color: #ff4500;
+
+  }
+
 .donate a{
     vertical-align: middle;
     /* background-color: #ff4500; */

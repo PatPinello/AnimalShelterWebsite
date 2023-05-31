@@ -46,20 +46,29 @@ body {
 
 }
 
+.info-img {
+  /* width: 432px;
+  height: 324px; */
+  text-align: center;
+}
+
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 25rem;
   background-color: #5a5a5a;
+  text-shadow: rgb(34, 34, 34) 1.5px 1.5px 5px;
+
 
 }
 .ginger > img{
   position: absolute;
   top: 0;
   left: 0;
-  padding-left: 200px;
+  padding-left: 5em;
   width: auto;
   height: 32rem;
 }
+
 .carousel-item > img{
   position: absolute;
   top: 0;
@@ -89,7 +98,7 @@ body {
 }
 .info-block {
 
- height: 965px;
+ min-height: 965px;
 }
 .info-text{
   word-break: break-word;
