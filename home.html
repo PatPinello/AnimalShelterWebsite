@@ -13,140 +13,130 @@
   </head>
   <body>
 
-<!-- navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <!-- container -->
-  <div class="container-fluid row">
-    <!-- row -->
-    <div class="row align-items-center">
-      <!-- col -->
-      <div class="col-auto hamburger-col">
-            <!-- hamburger button -->
-            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- end hamburger button -->
-            <!-- navbar collapser -->
-            <div class="navbar-collapse collapse" id="navbarNav">
-              <!-- navbar unordered list -->
-              <ul class="navbar-nav  me-auto mb-2 mb-lg-0 ">
-                <!-- Our Work dropdown -->
-                <li class="nav-item dropdown">
-                  <a class="nav-link btn  border-top-0 border-bottom-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Our Work
-                  </a>
-                  <ul class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="aboutUs.html">About Us</a></li>
-                    <li><a class="dropdown-item" href="#">Penny Social</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Recent Adoptees!</a></li>
-                  </ul>
-                </li>
-                <!-- Local Services dropdown -->
-                <li class="nav-item dropdown">
-                  <a class="nav-link  btn border-left-0 border-top-0 border-bottom-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Services
-                  </a>
-                  <ul class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Contact Us</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
-                <!-- How you can help dropdown  -->
-                <li class="nav-item dropdown">
-                  <a class="nav-link btn  border-left-0 border-top-0 border-bottom-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    How You Can Help
-                  </a>
-                  <ul class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="adoption.html">Adoption</a></li>
-                    <li><a class="dropdown-item" href="#">Volunteer</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="events.html">Events</a></li>
-                  </ul>
-                </li>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- container -->
+    <div class="container-fluid row navbar-container">
+      <!-- row -->
+      <div class="row align-items-center navbar-row">
+        <!-- col -->
+        <div class="col-auto hamburger-col">
+              <!-- hamburger button -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#conditional-dropDown" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="navbar-content">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+              </div>
 
-              </ul> <!-- END navbar unordered list -->
-            </div>
+        </div> <!-- end first col -->
+        <div class="col-auto logo-col">
+          <!-- logo -->
+          <div class="logo d-inline conditional-flex">
+            <a href="home.html">
+              <img src="C:\Users\patri\Desktop\AnimalShelterWebsite\AnimalShelterWebsite\assets\cat.jpg">
+            </a>
+          </div>
+          <!-- end logo -->
+        </div>
+            <!-- donate button -->
+            <div class="col donate-col">
+              <div class="donate d-inline">
+                <a class="btn btn-donate text-center" href="#" role="button">DONATE</a>
+              </div>
+            </div> <!--end donate col-->
+      </div> <!--end row-->
+    </div> <!--end container-->
+    </nav> <!-- end navbar -->
 
-
-      </div> <!-- end first col -->
-      <div class="col-auto logo-col">
-        <!-- logo -->
-        <div class="logo d-inline conditional-flex">
-          <a href="home.html">
-            <img src="C:\Users\patri\Desktop\AnimalShelterWebsite\AnimalShelterWebsite\assets\cat.jpg">
+  <div class="container-fluid container-dropDown">
+    <div class="conditional-dropDown collapse" id="conditional-dropDown">
+      <div class="col-sm-12 col-xs-12">
+        <button class="dropDown-btn-top btn w-100 text-start" type="button">
+          <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Our Work
           </a>
-        </div>
-        <!-- end logo -->
+          <ul class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="aboutUs.html">About Us</a></li>
+            <li><a class="dropdown-item" href="#">Penny Social</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Recent Adoptees!</a></li>
+          </ul>
+        </button>
+        <button class="dropDown-btn btn w-100 text-start" type="button">Button</button>
+    </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid container-carousel">
+    <div class="row">
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-          <!-- donate button -->
-          <div class="col donate-col">
-            <div class="donate d-inline">
-              <a class="btn btn-donate text-center" href="#" role="button">DONATE</a>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="img-fluid" src="C:\Users\patri\Desktop\AnimalShelterWebsite\AnimalShelterWebsite\assets\dog1.png" width="100%" height="100%" preserveAspectRatio="xMidYMid slice"> <rect width="100%" height="100%" fill="#777"/>
+
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Adopt a Pet Today!</h1>
+              <p>Find the perfect pet for you with Little Orphan Animals.</p>
+              <p><a class="btn btn-lg btn-outline" href="#">More Info</a></p>
             </div>
-          </div> <!--end donate col-->
-    </div> <!--end row-->
-  </div> <!--end container-->
-  </nav> <!-- end navbar -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
 
-
-<div class="container-fluid">
-  <div class="row">
-  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Foster a Pet!</h1>
+              <p>Learn how you can foster a Pet with Little Orphan Animals.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ginger">
+          <img class="img" src="C:\Users\patri\Desktop\AnimalShelterWebsite\AnimalShelterWebsite\assets\ginger.jpg"
+          width="40%" height="50%"  aria-hidden="true"  focusable="false">
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Ginger Needs You!</h1>
+              <p class="">Ginger was left at our door in very poor condition. <br>
+                She has spinal trama and needs an MRI<br> To see if surgery or physical therapy <br>will help her gain back strength in her legs. <br>
+              <p><a class="btn btn-lg btn-primary" href="#donate">Donate to Ginger</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-          <img class="img-fluid" src="C:\Users\patri\Desktop\AnimalShelterWebsite\AnimalShelterWebsite\assets\dog1.png" width="100%" height="100%" preserveAspectRatio="xMidYMid slice"> <rect width="100%" height="100%" fill="#777"/>
-
-        <div class="container">
-          <div class="carousel-caption text-start">
-            <h1>Adopt a Pet Today!</h1>
-            <p>Find the perfect pet for you with Little Orphan Animals.</p>
-            <p><a class="btn btn-lg btn-outline" href="#">More Info</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Foster a Pet!</h1>
-            <p>Learn how you can foster a Pet with Little Orphan Animals.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item ginger">
-        <img class="img" src="C:\Users\patri\Desktop\AnimalShelterWebsite\AnimalShelterWebsite\assets\ginger.jpg"
-        width="40%" height="50%"  aria-hidden="true"  focusable="false">
-        <div class="container">
-          <div class="carousel-caption text-end">
-            <h1>Ginger Needs You!</h1>
-            <p class="">Ginger was left at our door in very poor condition. <br>
-               She has spinal trama and needs an MRI<br> To see if surgery or physical therapy <br>will help her gain back strength in her legs. <br>
-            <p><a class="btn btn-lg btn-primary" href="#donate">Donate to Ginger</a></p>
-          </div>
-        </div>
-      </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
-  </div>
-</div>
 
   <div id="welcome" class="container-fluid">
     <div class="row">
@@ -162,11 +152,44 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <!-- Wish-lists -->
+  <div class="container container-wish-list">
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="rounded-circle" src="C:\Users\patri\Desktop\AnimalShelterWebsite\AnimalShelterWebsite\assets\bebe.jpg" width="140" height="140"  role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>fosterHome</title><rect width="100%" height="100%" fill="#777"/>
+
+        <h2>Foster Home Wish List</h2>
+        <p class="text-danger wish-list-text-urgent">Urgently Need: </p>
+        <p class="wish-list-text">Friskies canned filets, shreds and pates; Fancy Feast Classic pates and Purina Complete dry food.</p>
+        <p><a class="btn btn-outline-primary" href="#">Full List &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="rounded-circle" src="C:\Users\patri\Desktop\AnimalShelterWebsite\AnimalShelterWebsite\assets\thriftShop.jpg" width="140" height="140"  role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>thriftShop</title><rect width="100%" height="100%" fill="#777"/>
+
+        <h2>Thrift Shop Wish List</h2>
+        <p class="text-danger wish-list-text-urgent">Urgently Need: </p>
+          <p class="wish-list-text">Clear Packing Tape.</p>
+        <p><a class="btn btn-outline-primary" href="#">Full List &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="rounded-circle" src="C:\Users\patri\Desktop\AnimalShelterWebsite\AnimalShelterWebsite\assets\office.jpg" width="140" height="140"  role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>office</title><rect width="100%" height="100%" fill="#777"/>
+
+        <h2>Office Supplies Needed</h2>
+        <p class="text-danger wish-list-text-urgent"><br></p>
+        <p class="wish-list-text"><br></p>
+        <p><a class="btn btn-outline-primary" href="#">Full List &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+  </div>
+
+  <div id="info" class="container-fluid">
     <div class="row">
       <div class="info  col-sm-12 col-md-4">
         <div id="info" class="info-block p-4 p-md-5 mb-4 text-black rounded bg-light-grey">
             <h2 id="welcome1" class="welcome-heading display-4 fst-bold">Adoption Info!</h2>
-              <img class="info-img img-fluid pt-3" src = "C:\Users\patri\Desktop\AnimalShelterWebsite\AnimalShelterWebsite\assets\adopt.jpg">
+              <img class="info-img-adopt img-fluid pt-3" src = "C:\Users\patri\Desktop\AnimalShelterWebsite\AnimalShelterWebsite\assets\adopt.jpg">
               <p class="lead my-3 .text-danger">
                 Adoptions are by appointment only. Please call our rescue line at 914-734-2989 or email littleorphans@yahoo.com. Please include a phone number.
               </p>
@@ -203,10 +226,6 @@
       </div>
     </div>
   </div>
-
-  <!-- Marketing messaging and featurettes
-  ================================================== -->
-  <!-- Wrap the rest of the page in another container to center all the content. -->
 
   <!-- FOOTER -->
   <footer class="container">

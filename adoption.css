@@ -6,3 +6,17 @@
     background-color: #fbc4a4;
     background-image: linear-gradient(315deg, #fdba8d 0%, #f3ebdc 74%);
 }
+.card-body {
+    /* background-color: #54575a1f; */
+    background-image: linear-gradient(to bottom, rgba(223, 224, 226, 0.114) 0%, #54575a1f 74%);
+}
+.card-title a {
+    text-shadow: rgb(90, 90, 90) .5px .5px 30px;
+}
+.header-adoption {
+    text-shadow: rgb(90, 90, 90) 2px 2px 30px;
+
+}
+.sub-head-adoption {
+    text-shadow: rgb(139, 139, 139) 1px 1px 40px;
+}

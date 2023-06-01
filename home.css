@@ -51,13 +51,16 @@ body {
   height: 324px; */
   text-align: center;
 }
+.info-img-adopt {
+  height: 70%;
+  width: 70%;
+}
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 25rem;
   background-color: #5a5a5a;
   text-shadow: rgb(34, 34, 34) 1.5px 1.5px 5px;
-
 
 }
 .ginger > img{
@@ -104,24 +107,27 @@ body {
   word-break: break-word;
 }
 
-/* MARKETING CONTENT
+/* container-wish-list CONTENT
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
+.container-wish-list .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
 }
-.marketing h2 {
+.container-wish-list h2 {
   font-weight: 400;
 }
 /* rtl:begin:ignore */
-.marketing .col-lg-4 p {
+.container-wish-list .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
 }
 .wish-list{
   height: 60px;
+}
+.wish-list-text {
+  min-height: 70px
 }
 /* rtl:end:ignore */
 
@@ -133,7 +139,7 @@ body {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
 }
 
-/* Thin out the marketing headings */
+/* Thin out the container-wish-list headings */
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
@@ -244,7 +250,10 @@ h1, h2, h3, h4, h5, h6 {
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
-
+.container-wish-list {
+  margin-top: 15em;
+  margin-bottom: 20em;
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 

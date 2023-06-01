@@ -1,7 +1,7 @@
 /* dropdown hover */
-.dropdown:hover>.dropdown-menu{
+/* .dropdown:hover>.dropdown-menu{
     display:block;
-}
+} */
 .dropdown-toggle::after{
     content:none;
 }
@@ -10,7 +10,7 @@
       pointer-events: none;
 }
 .dropdown-item {
-    padding-top: 100px;
+    padding-top: 10px;
 
     /* padding-left: 200px; */
 }
@@ -18,8 +18,27 @@
     font-family: "Museo Slab 900","Lucida Grande","Lucida Sans Unicode","Trebuchet MS",sans-serif;
     font-size: 18px;
 
-
-
+}
+.dropdown-btn:hover {
+    background-image: linear-gradient(to bottom, #b8b9b9, #b3b3b3);
+    color: black;
+}
+.dropDown-btn-top {
+    background-color: #f8f9fa;
+    background-image: linear-gradient(to bottom, #f8f9fa, #e7e9eb);
+    height: 100px;
+    border-radius: 0%;
+    color:rgba(255, 107, 53, 0.897);
+    border-color: #54575a10;
+    text-shadow: rgba(177, 74, 37, 0.808) .5px .5px 40px;
+}
+.dropDown-btn {
+    background-color: #e7e9eb;
+    height: 100px;
+    border-radius: 0%;
+    color:rgba(255, 107, 53, 0.897);
+    border-color: #54575a10;
+    text-shadow: rgba(177, 74, 37, 0.808) .5px .5px 40px;
 }
 /* .nav-item.dropdown{
     position: relative;
@@ -28,10 +47,7 @@
     position: absolute;
 } */
 
-.navbar-nav {
-    /* position: absolute; */
 
-}
 
 .navbar-collapse {
 
@@ -140,7 +156,19 @@
         order: 3;
     }
 
+
 }
+
+@media (max-width: 991px)
+{
+    .navbar-content {
+        display: none;
+    }
+    /* .navbar-nav-nav {
+        display: none;
+    } */
+}
+
 /*Adoption*/
 .bd-placeholder-img {
     font-size: 1.125rem;
