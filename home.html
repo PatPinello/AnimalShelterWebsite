@@ -13,6 +13,7 @@
   </head>
   <body>
 
+
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <!-- container -->
@@ -60,23 +61,53 @@
             </div> <!--end donate col-->
       </div> <!--end row-->
     </div> <!--end container-->
-    </nav> <!-- end navbar -->
+  </nav> <!-- end navbar -->
 
   <div class="container-fluid container-dropDown">
     <div class="conditional-dropDown collapse" id="conditional-dropDown">
-      <div class="col-sm-12 col-xs-12">
-        <button class="dropDown-btn-top btn w-100 text-start" type="button">
-          <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Our Work
-          </a>
-          <ul class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="aboutUs.html">About Us</a></li>
-            <li><a class="dropdown-item" href="#">Penny Social</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Recent Adoptees!</a></li>
-          </ul>
+      <div class="col-sm-12 col-xs-12 dropDown-col">
+        <button class="dropDown-btn btn w-100 text-start" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#conditional-dropDown-2" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+          Our Work
         </button>
-        <button class="dropDown-btn btn w-100 text-start" type="button">Button</button>
+          <div class="conditional-dropDown-2 collapse" id="conditional-dropDown-2">
+            <button class="inner-dropDown-btn btn w-100" type="button"><a class="nav-link" role="button" href="#">About Us</a></button>
+            <button class="inner-dropDown-btn btn w-100" type="button"><a class="nav-link" role="button" href="#">Recent Adoptees!</a></button>
+            <button class="inner-dropDown-btn btn w-100" type="button"><a class="nav-link" role="button" href="#">Penny Social</a></button>
+          </div>
+          <button class="dropDown-btn btn w-100 text-start" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#conditional-dropDown-3" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+          Local Services
+        </button>
+          <div class="conditional-dropDown-3 collapse" id="conditional-dropDown-3">
+            <button class="inner-dropDown-btn btn w-100" type="button"><a class="nav-link" role="button" href="#">About Us</a></button>
+            <button class="inner-dropDown-btn btn w-100" type="button"><a class="nav-link" role="button" href="#">Recent Adoptees!</a></button>
+            <button class="inner-dropDown-btn btn w-100" type="button"><a class="nav-link" role="button" href="#">Penny Social</a></button>
+          </div>
+          <button class="dropDown-btn btn w-100 text-start" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#conditional-dropDown-4" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+          How You Can Help
+        </button>
+          <div class="conditional-dropDown-4 collapse" id="conditional-dropDown-4">
+            <button class="inner-dropDown-btn btn w-100" type="button"><a class="nav-link" role="button" href="#">About Us</a></button>
+            <button class="inner-dropDown-btn btn w-100" type="button"><a class="nav-link" role="button" href="#">Recent Adoptees!</a></button>
+            <button class="inner-dropDown-btn btn w-100" type="button"><a class="nav-link" role="button" href="#">Penny Social</a></button>
+          </div>
+
+          <!-- <ul class="dropdownMenu collapse" id="conditional-dropDown-2" >
+            <li>
+              <button class="inner-dropDown-btn btn w-100" type="button">
+                <a class="dropdownItem" href="aboutUs.html">About Us</a>
+              </button>>
+            </li>
+            <li><a class="dropdownItem" href="#">Penny Social</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdownItem" href="#">Recent Adoptees!</a></li>
+          </ul> -->
+
     </div>
     </div>
   </div>

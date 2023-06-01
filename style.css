@@ -33,12 +33,37 @@
     text-shadow: rgba(177, 74, 37, 0.808) .5px .5px 40px;
 }
 .dropDown-btn {
-    background-color: #e7e9eb;
+    background-color: #f4f4f5;
     height: 100px;
     border-radius: 0%;
     color:rgba(255, 107, 53, 0.897);
     border-color: #54575a10;
     text-shadow: rgba(177, 74, 37, 0.808) .5px .5px 40px;
+}
+.inner-dropDown-btn a{
+    background-color: #f4f4f5;
+    height: 100px;
+    border-radius: 0%;
+    color:rgb(255, 96, 39);
+    text-shadow: rgba(177, 74, 37, 0.808) .5px .5px 40px;
+    text-align: start;
+
+}
+.inner-dropDown-btn {
+    padding: 0;
+    margin-left: 10px;
+    border-color: #babbbd;
+
+    border-width: .01px;
+
+}
+.container-dropDown {
+    background-image: url('C:/Users/patri/Desktop/AnimalShelterWebsite/AnimalShelterWebsite/assets/pattern_orange.png');
+
+}
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
 }
 /* .nav-item.dropdown{
     position: relative;
