@@ -59,23 +59,28 @@
     border-color: #54575a10;
     text-shadow: rgba(177, 74, 37, 0.808) .5px .5px 40px;
 }
-.inner-dropDown-btn a{
-    background-color: #f4f4f5;
+.btn-inner-dropDown a{
     height: 100px;
-    border-radius: 0%;
-    color:rgb(255, 96, 39);
+    color:rgb(252, 137, 96);
     text-shadow: rgba(177, 74, 37, 0.808) .5px .5px 40px;
     text-align: start;
     outline: none;
+    text-decoration: none;
+    padding-left: 10px;
+
 
 }
-.inner-dropDown-btn {
+.btn-inner-dropDown {
     padding: 0;
     margin-left: 10px;
     border-color: #babbbd;
-
-    border-width: .01px;
+    background-color: #e3e6e7;
+    border-width: 1px;
     outline: none;
+    width: 99%;
+    border-radius: 0%;
+    font-size: 18px;
+    text-align: start;
 
 }
 .container-dropDown {
