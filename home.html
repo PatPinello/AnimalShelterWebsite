@@ -10,6 +10,10 @@
 
     <link href="home.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="listButton.js"></script>
+
   </head>
   <body>
 
@@ -34,11 +38,9 @@
                       Our Work
                     </a>
                     <ul class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
-                      <li class="dropdown-list-item"><a class="dropdown-item" href="aboutUs.html">About Us</a></li>
+                      <li class="dropdown-list-item"><a class="dropdown-item" href="home.html">Home</a></li>
                       <li class="dropdown-list-item"><hr class="dropdown-divider"></li>
                       <li class="dropdown-list-item"><a class="dropdown-item" href="foundCats.html">Found Cats</a></li>
-                      <li class="dropdown-list-item"><hr class="dropdown-divider"></li>
-                      <li class="dropdown-list-item"><a class="dropdown-item" href="adoptees.html">Recent Adoptees!</a></li>
                     </ul>
                   </li>
                   <!-- Local Services dropdown -->
@@ -104,7 +106,7 @@
           Our Work
         </button>
           <div class="conditional-dropDown-2 collapse" id="conditional-dropDown-2">
-            <button class="inner-dropDown-btn btn w-100" type="button"><a class="navLink" role="button" href="#">About Us</a></button>
+            <button class="inner-dropDown-btn btn w-100" type="button"><a class="navLink" role="button" href="#">Home</a></button>
             <button class="inner-dropDown-btn btn w-100" type="button"><a class="navLink" role="button" href="#">Recent Adoptees!</a></button>
             <button class="inner-dropDown-btn btn w-100" type="button"><a class="navLink" role="button" href="#">Penny Social</a></button>
           </div>
@@ -161,7 +163,7 @@
             <div class="carousel-caption text-start">
               <h1>Adopt a Pet Today!</h1>
               <p>Find the perfect pet for you with Little Orphan Animals.</p>
-              <p><a class="btn btn-lg btn-outline" href="#">More Info</a></p>
+              <p><a class="btn btn-lg btn-outline" href="adoption.html">Adopt</a></p>
             </div>
           </div>
         </div>
@@ -172,7 +174,7 @@
             <div class="carousel-caption">
               <h1>Foster a Pet!</h1>
               <p>Learn how you can foster a Pet with Little Orphan Animals.</p>
-              <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+              <p><a class="btn btn-lg btn-primary" href="foster.html">Learn more</a></p>
             </div>
           </div>
         </div>
@@ -226,7 +228,17 @@
         <h2>Foster Home Wish List</h2>
         <p class="text-danger wish-list-text-urgent">Urgently Need: </p>
         <p class="wish-list-text">Friskies canned filets, shreds and pates; Fancy Feast Classic pates and Purina Complete dry food.</p>
-        <p><a class="btn btn-outline-primary" href="#">Full List &raquo;</a></p>
+        <p>
+          <a class="btn btn-outline-primary showList" data-bs-toggle='collapse' href='#collapseList1' role="button" aria-expanded="false" aria-controls="collapseList1">Show List &darr;</a>
+          <p class='collapse fullList text-black' id="collapseList1">
+            Temptations & Party Mix cat treats <br>
+            Pine litter pellets <br>
+            Scoop-able litter <br>
+            Wee wee pads <br>
+            Paper towels <br>
+            Glad force-flex trash bags (13 gallon size)
+            </p>
+        </p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <img class="rounded-circle" src="C:\Users\patri\Desktop\AnimalShelterWebsite\AnimalShelterWebsite\assets\thriftShop.jpg" width="140" height="140"  role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>thriftShop</title><rect width="100%" height="100%" fill="#777"/>
@@ -234,7 +246,17 @@
         <h2>Thrift Shop Wish List</h2>
         <p class="text-danger wish-list-text-urgent">Urgently Need: </p>
           <p class="wish-list-text">Clear Packing Tape.</p>
-        <p><a class="btn btn-outline-primary" href="#">Full List &raquo;</a></p>
+          <p>
+            <a class="btn btn-outline-primary showList" data-bs-toggle='collapse' href='#collapseList2' role="button" aria-expanded="false" aria-controls="collapseList2">Show List &darr;</a>
+            <p class='collapse fullList text-black' id="collapseList2">
+              Quality items in good, clean condition (jewelry donations are appreciated!) <br>
+              Large garbage bags<br>
+              Paper towels<br>
+              Cleaning supplies (Windex, Fantastic, Clorox wipes)<br>
+              String price tags/stickers<br>
+              Plastic gloves (size large)<br>
+              </p>
+          </p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <img class="rounded-circle" src="C:\Users\patri\Desktop\AnimalShelterWebsite\AnimalShelterWebsite\assets\office.jpg" width="140" height="140"  role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>office</title><rect width="100%" height="100%" fill="#777"/>
@@ -242,10 +264,25 @@
         <h2>Office Supplies Needed</h2>
         <p class="text-danger wish-list-text-urgent"><br></p>
         <p class="wish-list-text"><br></p>
-        <p><a class="btn btn-outline-primary" href="#">Full List &raquo;</a></p>
+        <p>
+          <a class="btn btn-outline-primary showList" data-bs-toggle='collapse' href='#collapseList3' role="button" aria-expanded="false" aria-controls="collapseList3">Show List &darr;</a>
+          <p class='collapse fullList text-black' id="collapseList3">
+              #10 envelopes <br>
+              Postage stamps<br>
+              Scotch tape<br>
+              Clear packing tape<br>
+              Glue sticks<br>
+              String price tags/stickers.<br>
+            </p>
+        </p>
+
+
+
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
   </div>
+
+
 
   <div id="info" class="container-fluid">
     <div class="row">
@@ -291,12 +328,14 @@
   </div>
 
   <!-- FOOTER -->
-  <footer class="container">
+  <footer class="container footer">
     <p class="float-end"><a href="#">Back to top</a></p>
     <p> Little Orpan Animals Thrift Shop &middot 960 Washington St. Peekskill, NY</p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
   </body>
 </html>
