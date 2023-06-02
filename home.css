@@ -33,6 +33,9 @@ body {
   bottom: 3rem;
   z-index: 10;
 }
+.img-car {
+  opacity: .8;
+}
 .carousel-caption a {
   background-color: #ff440000;
   color: white;

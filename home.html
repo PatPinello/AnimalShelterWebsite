@@ -29,39 +29,46 @@
               <div class="navbar-content">
                 <ul class="navbar-nav  me-auto mb-2 mb-lg-0 ">
                   <!-- Our Work dropdown -->
-                  <li class="nav-item dropdown">
-                    <a class="nav-link btn border border-left-0 border-top-0 border-bottom-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <li class="navItem dropdown">
+                    <a class="navLink btn border border-left-0 border-top-0 border-bottom-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Our Work
                     </a>
                     <ul class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="aboutUs.html">About Us</a></li>
-                      <li><a class="dropdown-item" href="#">Penny Social</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Recent Adoptees!</a></li>
+                      <li class="dropdown-list-item"><a class="dropdown-item" href="aboutUs.html">About Us</a></li>
+                      <li class="dropdown-list-item"><hr class="dropdown-divider"></li>
+                      <li class="dropdown-list-item"><a class="dropdown-item" href="#">Found Cats</a></li>
+                      <li class="dropdown-list-item"><hr class="dropdown-divider"></li>
+                      <li class="dropdown-list-item"><a class="dropdown-item" href="#">Recent Adoptees!</a></li>
                     </ul>
                   </li>
                   <!-- Local Services dropdown -->
-                  <li class="nav-item dropdown">
-                    <a class="nav-link btn border border-left-0 border-top-0 border-bottom-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <li class="navItem dropdown">
+                    <a class="navLink btn border border-left-0 border-top-0 border-bottom-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Services
                     </a>
                     <ul class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Contact Us</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li class="dropdown-list-item"><a class="dropdown-item" href="#">Contact Us</a></li>
+                      <li class="dropdown-list-item"><hr class="dropdown-divider"></li>
+                      <li class="dropdown-list-item"><a class="dropdown-item" href="#">Thrift Shop</a></li>
+                      <li class="dropdown-list-item"><hr class="dropdown-divider"></li>
+                      <li class="dropdown-list-item"><a class="dropdown-item" href="#">Adoption Center</a></li>
+                      <li class="dropdown-list-item"><hr class="dropdown-divider"></li>
+                      <li class="dropdown-list-item"><a class="dropdown-item" href="#">Useful Links</a></li>
                     </ul>
                   </li>
                   <!-- How you can help dropdown  -->
-                  <li class="nav-item dropdown">
-                    <a class="nav-link btn border border-left-0 border-top-0 border-bottom-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <li class="navItem dropdown">
+                    <a class="navLink btn border border-left-0 border-top-0 border-bottom-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       How You Can Help
                     </a>
                     <ul class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="adoption.html">Adoption</a></li>
-                      <li><a class="dropdown-item" href="#">Volunteer</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="events.html">Events</a></li>
+                      <li class="dropdown-list-item"><a class="dropdown-item" href="adoption.html">Adoption</a></li>
+                      <li class="dropdown-list-item"><hr class="dropdown-divider"></li>
+                      <li class="dropdown-list-item"><a class="dropdown-item" href="#">Volunteer</a></li>
+                      <li class="dropdown-list-item"><hr class="dropdown-divider"></li>
+                      <li class="dropdown-list-item"><a class="dropdown-item" href="#">Foster</a></li>
+                      <li class="dropdown-list-item"><hr class="dropdown-divider"></li>
+                      <li class="dropdown-list-item"><a class="dropdown-item" href="events.html">How to Help</a></li>
                     </ul>
                   </li>
 
@@ -87,7 +94,7 @@
       </div> <!--end row-->
     </div> <!--end container-->
   </nav> <!-- end navbar -->
-
+  <!-- dropdown -->
   <div class="container-fluid container-dropDown">
     <div class="conditional-dropDown collapse" id="conditional-dropDown">
       <div class="col-sm-12 col-xs-12 dropDown-col">
@@ -97,9 +104,9 @@
           Our Work
         </button>
           <div class="conditional-dropDown-2 collapse" id="conditional-dropDown-2">
-            <button class="inner-dropDown-btn btn w-100" type="button"><a class="nav-link" role="button" href="#">About Us</a></button>
-            <button class="inner-dropDown-btn btn w-100" type="button"><a class="nav-link" role="button" href="#">Recent Adoptees!</a></button>
-            <button class="inner-dropDown-btn btn w-100" type="button"><a class="nav-link" role="button" href="#">Penny Social</a></button>
+            <button class="inner-dropDown-btn btn w-100" type="button"><a class="navLink" role="button" href="#">About Us</a></button>
+            <button class="inner-dropDown-btn btn w-100" type="button"><a class="navLink" role="button" href="#">Recent Adoptees!</a></button>
+            <button class="inner-dropDown-btn btn w-100" type="button"><a class="navLink" role="button" href="#">Penny Social</a></button>
           </div>
           <button class="dropDown-btn btn w-100 text-start" type="button" data-bs-toggle="collapse"
                         data-bs-target="#conditional-dropDown-3" aria-controls="navbarNav" aria-expanded="false"
@@ -107,9 +114,9 @@
           Local Services
         </button>
           <div class="conditional-dropDown-3 collapse" id="conditional-dropDown-3">
-            <button class="inner-dropDown-btn btn w-100" type="button"><a class="nav-link" role="button" href="#">Contact Us</a></button>
-            <button class="inner-dropDown-btn btn w-100" type="button"><a class="nav-link" role="button" href="#">Thrift Shop</a></button>
-            <button class="inner-dropDown-btn btn w-100" type="button"><a class="nav-link" role="button" href="#">Adoption Center</a></button>
+            <button class="inner-dropDown-btn btn w-100" type="button"><a class="navLink" role="button" href="#">Contact Us</a></button>
+            <button class="inner-dropDown-btn btn w-100" type="button"><a class="navLink" role="button" href="#">Thrift Shop</a></button>
+            <button class="inner-dropDown-btn btn w-100" type="button"><a class="navLink" role="button" href="#">Adoption Center</a></button>
           </div>
           <button class="dropDown-btn btn w-100 text-start" type="button" data-bs-toggle="collapse"
                         data-bs-target="#conditional-dropDown-4" aria-controls="navbarNav" aria-expanded="false"
@@ -117,9 +124,9 @@
           How You Can Help
         </button>
           <div class="conditional-dropDown-4 collapse" id="conditional-dropDown-4">
-            <button class="inner-dropDown-btn btn w-100" type="button"><a class="nav-link" role="button" href="#">Adoption</a></button>
-            <button class="inner-dropDown-btn btn w-100" type="button"><a class="nav-link" role="button" href="#">Volunteer</a></button>
-            <button class="inner-dropDown-btn btn w-100" type="button"><a class="nav-link" role="button" href="#">Events</a></button>
+            <button class="inner-dropDown-btn btn w-100" type="button"><a class="navLink" role="button" href="#">Adoption</a></button>
+            <button class="inner-dropDown-btn btn w-100" type="button"><a class="navLink" role="button" href="#">Volunteer</a></button>
+            <button class="inner-dropDown-btn btn w-100" type="button"><a class="navLink" role="button" href="#">Events</a></button>
           </div>
 
           <!-- <ul class="dropdownMenu collapse" id="conditional-dropDown-2" >
@@ -136,7 +143,7 @@
     </div>
     </div>
   </div>
-
+  <!-- end dropdown -->
 
   <div class="container-fluid container-carousel">
     <div class="row">
@@ -148,7 +155,7 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="img-fluid" src="C:\Users\patri\Desktop\AnimalShelterWebsite\AnimalShelterWebsite\assets\dog1.png" width="100%" height="100%" preserveAspectRatio="xMidYMid slice"> <rect width="100%" height="100%" fill="#777"/>
+            <img class="img-fluid img-car img-responsive" src="C:\Users\patri\Desktop\AnimalShelterWebsite\AnimalShelterWebsite\assets\adopt_carousel2.jpg" width="100%" height="100%" preserveAspectRatio="xMidYMid slice"> <rect width="100%" height="100%" fill="#777"/>
 
           <div class="container">
             <div class="carousel-caption text-start">
@@ -159,7 +166,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+          <img class="img-fluid img-car img-responsive" src="C:\Users\patri\Desktop\AnimalShelterWebsite\AnimalShelterWebsite\assets\adopt_carousel.jpg" width="100%" height="100%" preserveAspectRatio="xMidYMid slice"> <rect width="100%" height="100%" fill="#777"/>
 
           <div class="container">
             <div class="carousel-caption">
@@ -169,8 +176,8 @@
             </div>
           </div>
         </div>
-        <div class="carousel-item ginger">
-          <img class="img" src="C:\Users\patri\Desktop\AnimalShelterWebsite\AnimalShelterWebsite\assets\ginger.jpg"
+        <div class="carousel-item ginger ">
+          <img class="img img-responsive" src="C:\Users\patri\Desktop\AnimalShelterWebsite\AnimalShelterWebsite\assets\ginger.jpg"
           width="40%" height="50%"  aria-hidden="true"  focusable="false">
           <div class="container">
             <div class="carousel-caption text-end">
