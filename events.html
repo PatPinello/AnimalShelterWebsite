@@ -12,83 +12,135 @@
   </head>
   <body>
         <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <!-- container -->
-      <div class="container-fluid row">
-        <!-- row -->
-        <div class="row align-items-center">
-          <!-- col -->
-          <div class="col hamburger-col">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- container -->
+    <div class="container-fluid row navbar-container">
+      <!-- row -->
+      <div class="row align-items-center navbar-row">
+        <!-- col -->
+        <div class="col-auto hamburger-col">
+              <!-- hamburger button -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#conditional-dropDown" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="navbar-content">
+                <ul class="navbar-nav  me-auto mb-2 mb-lg-0 ">
+                  <!-- Our Work dropdown -->
+                  <li class="navItem dropdown">
+                    <a class="navLink btn border border-left-0 border-top-0 border-bottom-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Our Work
+                    </a>
+                    <ul class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
+                      <li class="dropdown-list-item"><a class="dropdown-item" href="aboutUs.html">About Us</a></li>
+                      <li class="dropdown-list-item"><hr class="dropdown-divider"></li>
+                      <li class="dropdown-list-item"><a class="dropdown-item" href="#">Found Cats</a></li>
+                      <li class="dropdown-list-item"><hr class="dropdown-divider"></li>
+                      <li class="dropdown-list-item"><a class="dropdown-item" href="#">Recent Adoptees!</a></li>
+                    </ul>
+                  </li>
+                  <!-- Local Services dropdown -->
+                  <li class="navItem dropdown">
+                    <a class="navLink btn border border-left-0 border-top-0 border-bottom-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                    </a>
+                    <ul class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
+                      <li class="dropdown-list-item"><a class="dropdown-item" href="#">Contact Us</a></li>
+                      <li class="dropdown-list-item"><hr class="dropdown-divider"></li>
+                      <li class="dropdown-list-item"><a class="dropdown-item" href="#">Thrift Shop</a></li>
+                      <li class="dropdown-list-item"><hr class="dropdown-divider"></li>
+                      <li class="dropdown-list-item"><a class="dropdown-item" href="#">Adoption Center</a></li>
+                      <li class="dropdown-list-item"><hr class="dropdown-divider"></li>
+                      <li class="dropdown-list-item"><a class="dropdown-item" href="#">Useful Links</a></li>
+                    </ul>
+                  </li>
+                  <!-- How you can help dropdown  -->
+                  <li class="navItem dropdown">
+                    <a class="navLink btn border border-left-0 border-top-0 border-bottom-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      How You Can Help
+                    </a>
+                    <ul class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
+                      <li class="dropdown-list-item"><a class="dropdown-item" href="adoption.html">Adoption</a></li>
+                      <li class="dropdown-list-item"><hr class="dropdown-divider"></li>
+                      <li class="dropdown-list-item"><a class="dropdown-item" href="#">Volunteer</a></li>
+                      <li class="dropdown-list-item"><hr class="dropdown-divider"></li>
+                      <li class="dropdown-list-item"><a class="dropdown-item" href="#">Foster</a></li>
+                      <li class="dropdown-list-item"><hr class="dropdown-divider"></li>
+                      <li class="dropdown-list-item"><a class="dropdown-item" href="events.html">How to Help</a></li>
+                    </ul>
+                  </li>
 
-                <!-- hamburger button -->
-                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- end hamburger button -->
-                <!-- navbar collapser -->
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <!-- navbar unordered list -->
-                  <ul class="navbar-nav  me-auto mb-2 mb-lg-0 ">
-                    <!-- Our Work dropdown -->
-                    <li class="nav-item dropdown">
-                      <button class="nav-link btn border border-top-0 border-bottom-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Our Work
-                      </button>
-                      <ul class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="aboutUs.html">About Us</a></li>
-                        <li><a class="dropdown-item" href="#">Penny Social</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Recent Adoptees!</a></li>
-                      </ul>
-                    </li>
-                    <!-- Local Services dropdown -->
-                    <li class="nav-item dropdown">
-                      <button class="nav-link btn border border-left-0 border-top-0 border-bottom-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Services
-                      </button>
-                      <ul class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Contact Us</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
-                    </li>
-                    <!-- How you can help dropdown  -->
-                    <li class="nav-item dropdown">
-                      <button class="nav-link btn border border-left-0 border-top-0 border-bottom-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        How You Can Help
-                      </button>
-                      <ul class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="adoption.html">Adoption</a></li>
-                        <li><a class="dropdown-item" href="#">Volunteer</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Events</a></li>
-                      </ul>
-                    </li>
+                </ul>
+              </div>
 
-                  </ul> <!-- END navbar unordered list -->
-                </div>
-
-
-          </div> <!-- end first col -->
-          <div class="col-auto logo-col">
-            <!-- logo -->
-            <div class="logo d-inline conditional-flex">
-              <a href="home.html">
-                <img src="C:\Users\patri\Desktop\AnimalShelterWebsite\AnimalShelterWebsite\assets\cat.jpg">
-              </a>
-            </div>
-            <!-- end logo -->
+        </div> <!-- end first col -->
+        <div class="col-auto logo-col">
+          <!-- logo -->
+          <div class="logo d-inline conditional-flex">
+            <a href="home.html">
+              <img src="C:\Users\patri\Desktop\AnimalShelterWebsite\AnimalShelterWebsite\assets\cat.jpg">
+            </a>
           </div>
-              <!-- donate button -->
-              <div class="col donate-col">
-                <div class="donate d-inline">
-                  <a class="btn btn-lg" href="#" role="button">DONATE</a>
-                </div>
-              </div> <!--end donate col-->
-        </div> <!---end row-->
-      </div> <!--end container-->
-      </nav> <!-- end navbar -->
+          <!-- end logo -->
+        </div>
+            <!-- donate button -->
+            <div class="col donate-col">
+              <div class="donate d-inline">
+                <a class="btn btn-donate text-center" href="#" role="button">DONATE</a>
+              </div>
+            </div> <!--end donate col-->
+      </div> <!--end row-->
+    </div> <!--end container-->
+  </nav> <!-- end navbar -->
+  <!-- dropdown -->
+  <div class="container-fluid container-dropDown">
+    <div class="conditional-dropDown collapse" id="conditional-dropDown">
+      <div class="col-sm-12 col-xs-12 dropDown-col">
+        <button class="dropDown-btn btn w-100 text-start" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#conditional-dropDown-2" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+          Our Work
+        </button>
+          <div class="conditional-dropDown-2 collapse" id="conditional-dropDown-2">
+            <button class="inner-dropDown-btn btn w-100" type="button"><a class="navLink" role="button" href="#">About Us</a></button>
+            <button class="inner-dropDown-btn btn w-100" type="button"><a class="navLink" role="button" href="#">Recent Adoptees!</a></button>
+            <button class="inner-dropDown-btn btn w-100" type="button"><a class="navLink" role="button" href="#">Penny Social</a></button>
+          </div>
+          <button class="dropDown-btn btn w-100 text-start" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#conditional-dropDown-3" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+          Local Services
+        </button>
+          <div class="conditional-dropDown-3 collapse" id="conditional-dropDown-3">
+            <button class="inner-dropDown-btn btn w-100" type="button"><a class="navLink" role="button" href="#">Contact Us</a></button>
+            <button class="inner-dropDown-btn btn w-100" type="button"><a class="navLink" role="button" href="#">Thrift Shop</a></button>
+            <button class="inner-dropDown-btn btn w-100" type="button"><a class="navLink" role="button" href="#">Adoption Center</a></button>
+          </div>
+          <button class="dropDown-btn btn w-100 text-start" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#conditional-dropDown-4" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+          How You Can Help
+        </button>
+          <div class="conditional-dropDown-4 collapse" id="conditional-dropDown-4">
+            <button class="inner-dropDown-btn btn w-100" type="button"><a class="navLink" role="button" href="#">Adoption</a></button>
+            <button class="inner-dropDown-btn btn w-100" type="button"><a class="navLink" role="button" href="#">Volunteer</a></button>
+            <button class="inner-dropDown-btn btn w-100" type="button"><a class="navLink" role="button" href="#">Events</a></button>
+          </div>
+
+          <!-- <ul class="dropdownMenu collapse" id="conditional-dropDown-2" >
+            <li>
+              <button class="inner-dropDown-btn btn w-100" type="button">
+                <a class="dropdownItem" href="aboutUs.html">About Us</a>
+              </button>>
+            </li>
+            <li><a class="dropdownItem" href="#">Penny Social</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdownItem" href="#">Recent Adoptees!</a></li>
+          </ul> -->
+
+    </div>
+    </div>
+  </div>
+  <!-- end dropdown -->
 
 
         <div class="container py-4">
