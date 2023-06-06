@@ -218,6 +218,7 @@
     }
 
 
+
 }
 .container-dropDown{
     display: none;
@@ -231,6 +232,15 @@
     }
     .container-dropDown{
         display: block;
+    }
+    .btn-donate {
+        padding: 30px 10px !important;
+        font-size: 20px !important;
+        border-radius: 10px !important;
+        line-height: 1 !important;
+        text-transform: uppercase !important;
+        font-family: "Museo Slab 900","Lucida Grande","Lucida Sans Unicode","Trebuchet MS",sans-serif !important;
+        height: 80px !important;
     }
 }
 
