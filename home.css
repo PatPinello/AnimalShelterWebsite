@@ -272,6 +272,16 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 50px;
   }
 }
+@media (max-width: 991px)
+{
+    .ginger > img {
+        top: 0;
+        left: 0;
+        padding-left: 0px;
+        width: auto;
+        height: 32rem;
+    }
+}
 
 @media (min-width: 62em) {
   .featurette-heading {

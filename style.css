@@ -242,6 +242,14 @@
         font-family: "Museo Slab 900","Lucida Grande","Lucida Sans Unicode","Trebuchet MS",sans-serif !important;
         height: 80px !important;
     }
+    .ginger > img {
+        /* position: absolute; */
+        top: 0;
+        left: 0;
+        padding-left: 0px;
+        width: auto;
+        height: 32rem;
+    }
 }
 
 /*Adoption*/
