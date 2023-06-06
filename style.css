@@ -84,7 +84,7 @@
 
 }
 .container-dropDown {
-    background-image: url('C:/Users/patri/Desktop/AnimalShelterWebsite/AnimalShelterWebsite/assets/pattern_orange.png');
+    background-image: url('./assets/pattern_orange.png');
 
 }
 .container-fluid{
@@ -165,7 +165,7 @@
 .donate a{
     vertical-align: middle;
     /* background-color: #ff4500; */
-    background-image: url('C:/Users/patri/Desktop/AnimalShelterWebsite/AnimalShelterWebsite/assets/pattern_orange.png');
+    background-image: url('./assets/pattern_orange.png');
     color: #ffffff;
     float: right;
 
@@ -180,7 +180,7 @@
     height: 90px !important;
 }
 .btn-donate:hover{
-    background-image: url('C:/Users/patri/Desktop/AnimalShelterWebsite/AnimalShelterWebsite/assets/pattern_orange.png');
+    background-image: url('./assets/pattern_orange.png');
     opacity: 0.6;
     color:white;
 
